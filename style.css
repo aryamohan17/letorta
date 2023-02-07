@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+.body{
+    padding: 0;
+    margin: 0;
+}
+/* search bar */
+.search_Main_Div{
+    display:flex;
+}
+
+.search_cls{
+    /* flex-grow: 1; */
+    height:50px;
+    width: 70%;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid #ceffd2f7;
+    border-radius: 20px 0px 0px 20px;
+    display: block;
+}
+.search_btn{
+    margin-top: 10px;
+    margin-left: -10px;
+    border: 1px solid green;
+    background-color: green;
+    color: #FFC300;
+    height:50px;
+    width: 25%;
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+
+}
+
+.underLine{
+    display: block;
+    border-top: 1px solid brown;
+    border-bottom: 1px solid brown;
+    width: 23%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.font-style{
+    font-family: 'niconne',cursive;
+    color: brown;
+}
+.img_syl{
+    height: 300px;
+}
+.img_syl:hover{
+    transform: scale(1.1);
+    transition: all 200ms;
+}
+.text_row{
+    border: 1px dashed red;
+    width: 100%;
+    height: 80px;
+    color: red;
+}
+.text_row:hover{
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+}
+a .cake-link{
+    color: #31120c;
+}
+.cake-link{
+    text-decoration: none;
+}
+.cake-link:hover{
+    text-decoration:underline;
+}
+/* underline */
+.lines{
+    border: 1px solid #808380f7;
+    /* width: 600px; */
+    
+}
+.black{
+    width: 100%;
+    height: 550px;
+    border-radius: 5%;
+}
+.link_ph{
+    text-decoration: none; 
+    color: white;
+}
+.link_ph:hover{
+    text-decoration: underline;
+}
+.fs6{
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+}
+.fs6:hover{
+    text-decoration: underline;
+}
+@media(max-width:750px){
+    .black{
+        height: 1300px;
+    }
+}
