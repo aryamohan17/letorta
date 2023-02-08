@@ -45,6 +45,7 @@
     font-family: 'niconne',cursive;
     color: brown;
 }
+
 .img_syl{
     height: 300px;
 }
@@ -101,5 +102,8 @@ a .cake-link{
 @media(max-width:750px){
     .black{
         height: 1300px;
+    }
+    .text_row{
+        margin-left: 8px;
     }
 }
